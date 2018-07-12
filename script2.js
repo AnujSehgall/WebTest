@@ -11,7 +11,7 @@ function addRow() {
 
     var table = document.getElementsByClassName('tableshow')[0];
 
-    var newRow = table.insertRow(table.rows.length / 2 + 1);
+    var newRow = table.insertRow(table.rows.length);
 
     // add cells to the row
     var cel1 = newRow.insertCell(0);
